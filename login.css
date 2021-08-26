@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+.body {
+    background-size: cover;
+}
+.login-form {  
+    background-position-z: 10px ;
+    border:white 2px;
+    width: 300px;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+
+.login-form h1 { 
+         color:white;
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 40px 0;
+}
+
+.login-form p{ 
+    color: white;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.login-form input {
+        font-size: 16px;
+        width: 100%;
+        padding: 15px;
+        border: 1px;
+        outline: none;
+        border-radius: 8px;
+}
+
+.login-form button{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%; 
+    border-radius: 5px;
+} 
+.Home { 
+    margin-top: 10px;
+    
+}
